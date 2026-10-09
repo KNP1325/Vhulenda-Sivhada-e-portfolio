@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact &amp; Tutoring Enquiries | Strength of Materials 3 Tutor</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <span>SM3</span> Tutor
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../personal.html">Personal Statement</a></li>
+            <li><a href="../module.html">Module Details</a></li>
+            <li><a href="../training.html">Training &amp; Development</a></li>
+            <li><a href="../delivery.html">Tutorial Delivery</a></li>
+            <li><a href="../technology.html">Technology</a></li>
+            <li><a href="../reflections.html">Reflections</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="feedback.html">Student Feedback</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle colour theme">☾</button>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Contact &amp; Tutoring Enquiries</h1>
+        <p>
+            Ready to master Strength of Materials 3? Send me a message, ask a question about a difficult topic,
+            or request a 1-on-1 or group revision session.
+        </p>
+    </section>
+
+    <section class="section">
+        <div class="contact-layout">
+            <div class="contact-info">
+                <p class="eyebrow">DIRECT DETAILS</p>
+                <h2>Contact Information</h2>
+                <p>Feel free to reach out directly via WhatsApp, phone, or email for quick assistance.</p>
+
+                <div class="contact-detail">
+                    <div>
+                        <strong>Tutor</strong>
+                        <p>Vhulenda Sivhada</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div>
+                        <strong>Role</strong>
+                        <p>Mechanical Engineering Student &amp; Strength of Materials 3 Tutor</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div>
+                        <strong>Institution</strong>
+                        <p>Walter Sisulu University (WSU)</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div>
+                        <strong>Phone / WhatsApp</strong>
+                        <p><a href="https://wa.me/27763334586" target="_blank" rel="noopener noreferrer">076 333 4586</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:sivhadavulenda@gmail.com">sivhadavulenda@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="https://wa.me/27763334586?text=Hello%20Vhulenda%2C%20I%20need%20help%20with%20Strength%20of%20Materials%203"
+                       target="_blank" rel="noopener noreferrer" class="btn primary">
+                        WhatsApp Me Directly
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sivhadavulenda%40gmail.com&amp;su=Strength%20of%20Materials%203%20Tutoring%20Enquiry"
+                       target="_blank" rel="noopener noreferrer" class="btn secondary">
+                        Compose Email
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <p class="eyebrow">SEND A MESSAGE</p>
+                <h2>Tutoring Enquiry Form</h2>
+
+                <form id="contactForm">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="e.g. Vhulenda Sivhada" required>
+
+                    <label for="email">Email Address or WhatsApp Number *</label>
+                    <input type="text" id="email" name="contact" placeholder="076... or student@wsu.ac.za" required>
+
+                    <label for="topicSelect">Topic You Need Help With *</label>
+                    <select id="topicSelect" name="topic" required>
+                        <option value="" disabled selected>Select a topic...</option>
+                        <option value="Stress and Strain / Thermal Stress">01 — Stress &amp; Strain / Thermal Stress</option>
+                        <option value="Shear Force and Bending Moment Diagrams">02 — Shear Force &amp; Bending Moment Diagrams</option>
+                        <option value="Bending Stress and Section Modulus">03 — Bending Stress &amp; Section Modulus</option>
+                        <option value="Beam Deflection (Double Integration)">04 — Beam Deflection (Double Integration)</option>
+                        <option value="Torsion in Shafts">05 — Torsion in Shafts</option>
+                        <option value="Mohr's Circle and Stress Transformations">06 — Mohr's Circle &amp; Stress Transformations</option>
+                        <option value="Combined Loading">07 — Combined Loading (Axial, Bending, Torsion)</option>
+                        <option value="Column Buckling (Euler Method)">08 — Column Buckling (Euler Method)</option>
+                        <option value="Test or Final Examination Revision">09 — Test or Final Examination Revision</option>
+                        <option value="General Question / Other">10 — General Question / Other</option>
+                    </select>
+
+                    <label for="sessionType">Session Preference</label>
+                    <select id="sessionType" name="session">
+                        <option value="1-on-1 Individual Tutoring">1-on-1 Individual Tutoring</option>
+                        <option value="Small Group Session">Small Group Session</option>
+                        <option value="WhatsApp / Digital Explanation">WhatsApp / Digital Explanation</option>
+                    </select>
+
+                    <label for="message">Message / Specific Questions</label>
+                    <textarea id="message" name="message" rows="4"
+                        placeholder="Tell me which question or concept you are struggling with..."></textarea>
+
+                    <button type="submit" class="btn primary">Prepare Enquiry Email</button>
+                </form>
+
+                <p id="formMessage" class="form-message" aria-live="polite"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">NEED QUICK ANSWERS?</p>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+        </div>
+
+        <div class="faq-list">
+            <article class="faq-item">
+                <h3>Where do tutoring sessions take place?</h3>
+                <p>Sessions take place in available lecture rooms and study areas at Walter Sisulu University campus, as well as digitally through voice notes, handwritten solutions, and screen shares on WhatsApp.</p>
+            </article>
+
+            <article class="faq-item">
+                <h3>How should I prepare before a tutoring session?</h3>
+                <p>Bring your lecture notes, tutorial problems, and specific questions or test questions you struggled with. Trying the problem first makes the session much more productive.</p>
+            </article>
+
+            <article class="faq-item">
+                <h3>Do you assist with test and examination preparation?</h3>
+                <p>Yes. Revision sessions focus on past test questions, problem setup techniques, free-body diagram verification, and step-by-step calculation strategies.</p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Vhulenda Sivhada | Strength of Materials 3 Tutor</p>
+    <span>Mechanical Engineering • Problem Solving • Leadership • Learning</span>
+</footer>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
